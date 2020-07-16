@@ -66,32 +66,29 @@ function writePassword() {
       
       var randomSpecial = specialCharacter [Math.floor(Math.random() * specialCharacter.length)]
 
-      
-      console.log(randomSpecial)
     } 
     
     if (userInput.numeric = true) {
     
       var randomNumeric = numericCharacter [Math.floor(Math.random() * numericCharacter.length)]
-      
-      console.log(randomNumeric)
-      
+           
     } 
       
     if (userInput.lowercase = true) {
 
     var randomLower = lowerCharacter [Math.floor(Math.random() * lowerCharacter.length)]
     
-    console.log(randomLower)
-
       } 
         
     if (userInput.uppercase = true) {
 
     var randomUpper = upperCharacter [Math.floor(Math.random() * upperCharacter.length)]
-      
-    console.log(randomUpper)
-      } 
+     
+    } 
+
+    console.log(randomSpecial + randomNumeric + randomLower + randomUpper)
+ 
   } 
+
 
 } 
